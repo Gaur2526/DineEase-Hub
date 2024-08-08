@@ -9,7 +9,7 @@ const app = express();
 dotenv.config({path: "./config/config.env" });
 
 const corsOptions = {
-    origin: 'http://localhost:5176', // Your frontend origin
+    origin: 'https://dine-ease-hub.vercel.app/', // Your frontend origin
     credentials: true, // Allow credentials
   };
   
